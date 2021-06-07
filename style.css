@@ -1,0 +1,86 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    padding-top: 2%;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 150px;
+    text-decoration: underline;
+}
+
+h2{
+    text-decoration: underline;
+    letter-spacing: 2px;
+    font-size: 2em;
+}
+
+.selection{
+    display: flex;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    margin-top: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rapport{
+    width: 30%;
+    margin-top: 12%;
+    margin-left: 40%;
+}
+
+.rapport a{
+    width: 30%;
+    padding: 20px;
+}
+
+a{
+    margin:auto;
+    font-size: 2em;
+    text-transform: uppercase;
+    border: 1px solid #f3976c;
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 450px;
+    padding-top: 15px;
+}
+
+main{
+    padding-left: 25px;
+}
+
+.performance{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.performance h2{
+    margin-bottom: 50px;
+}
+
+.analyse_img{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.analyse_img img{
+    width: 50%;
+}
+
+.img_access{
+    background-size: cover;
+    width: 300px;
+    height:400px;
+    margin-left: 20%
+}

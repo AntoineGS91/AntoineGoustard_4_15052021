@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="la-chouette-agence/version-optimise/img/la-chouette-agence.webp" alt="Logo de l'entreprise La Chouette Agence">
+    </header>
+    <main>   
+        <h1>Rapport d'analyse</h1>
+        <div>
+            <h2>Les outils utilisés</h2>
+            <ul>
+                <li>Lighthouse</li>
+                <li>Wave</li>
+                <li>GT Metrix</li>
+            </ul>
+        </div>
+        <section class="performance">
+            <h2>1. Performance</h2>
+            <div class="performance_detail">
+                <div class="analyse_img">
+                    <img src="img/analyse-perf.PNG" alt="Capture d'écran du rapport d'analyse">
+                    <img src="img/analyse-perf2.PNG" alt="Capture d'écran du rapport d'analyse modifié">
+                </div>
+                <p>&roarr; La première analyse demontre une performance globale assez réduite, avec un score atteignant seulement 66 points.</p>
+                <p>&roarr; On distingue assez facilement les catégories qui fonctionnent convenablement, comme le "Speed index" ou "Total blocking Time" par exemple</p>
+                <p>&roarr; Il apparait également clairement que deux parties semblent être à revoir, "Largest Contentful Paint" et "Time to interactive"</p>
+                <br><br>
+                <p>&roarr; Il est necessaire d'adapter le format des images afin que le site soit plus rapidement téléchargé</p>
+                <p>&roarr; J'ai donc passé les images du format JPG aux format WEBP</p>
+                <p>&roarr; J'ai également procéder à l'externalisation des différents fichiers de style (comme Boostrap et JQuery)</p>
+                <br><br>
+                <p>&roarr; L'amélioration est importante : 28 points gagnés !</p>
+            </div>
+        </section>
+        <section class="performance">
+            <h2>2. Accessibility</h2>
+            <div class="performance_detail">
+                <div class="analyse_img">
+                    <img src="img/analyse-access.PNG" alt="Capture d'écran du rapport d'analyse">
+                    <img src=" img/analyse-access2.PNG" alt="Capture d'écran du rapport d'analyse modifié">
+                    <div class="img_access" style="background-image:url(img/erreur-wave.PNG);"></div>
+                    <div class="img_access" style="background-image:url(img/erreur-wave2.PNG);"></div>
+                </div>
+                <p>&roarr; L'utilisation de Wave et de Lighthouse m'a permit de corriger toutes les erreurs</p>
+                <p>&roarr; L'outil Lighthouse donne des pistes d'amélioration générales (augmentation du contraste par exemple)</p>
+                <p>&roarr; L'utilisation de Wave permet, elle, de suivre élément par élément, les améliorations possibles</p>
+                <br><br>
+                <p>&roarr; J'ai procédé au changement de couleur principale du texte (sur background orange) afin d'en améliorer le contraste</p>
+                <p>&roarr; L'ensemble des "images de texte" ont été remplacé par du texte, afin d'assurer une meilleur lisibilité pour les lecteurs d'écran par exemple</p>
+                <p>&roarr; Un problème de déclaration de langue était également présent, peu important dans le cadre d'un site unilingue</p>
+                <br><br>
+                <p>&roarr; L'amélioration est importante : 16 points gagnés !</p>
+            </div>
+        </section>
+        <section class="performance">
+            <h2>3. Best Practices</h2>
+            <div class="performance_detail">
+                <div class="analyse_img">
+                    <img src="img/analyse-practices.PNG" alt="Capture d'écran du rapport d'analyse">
+                    <img src="img/analyse-practices2.PNG" alt="Capture d'écran du rapport d'analyse modifié">
+                </div>
+                <p>&roarr; Le seul point négatif "améliorable" était sur la résolution des images</p>
+                <p>&roarr; Après modification des formats d'images (JPG vers Webp) la résolution a été immédiate</p>
+                <br><br>
+                <p>&roarr; L'amélioration est modérée : 6 points gagnés.</p>
+            </div>
+        </section>
+        <section class="performance">
+            <h2>4. SEO</h2>
+            <div class="performance_detail">
+                <div class="analyse_img">
+                    <img src="img/analyse-seo.PNG" alt="Capture d'écran du rapport d'analyse">
+                    <img src="img/analyse-seo2.PNG" alt="Capture d'écran du rapport d'analyse modifié">
+                </div>
+                <p>&roarr; Lighthouse m'a permit d'identifier un certains nombre de problème : description, taille du texte par exemple</p>
+                <p>&roarr; L'aanalyse détaillée des fichiers HTML m'a permit de déceler d'autres problèmes (comme des mots clés dissimulés sur la page)</p>
+                <p>&roarr; Un "annuaire de lien" était présent en bas de page mais ne redirigeait que vers des liens "morts", </p>
+                <br><br>
+                <p>&roarr; L'amélioration est importante : 22 points gagnés !</p>
+            </div>
+        </section>
+        <section class="performance">
+            <h2>5.  Conclusion</h2>
+            <div class="performance_detail">
+                <div class="analyse_img">
+                    <img src="img/analyse_conclu.PNG" alt="Capture d'écran du rapport d'analyse">
+                </div>
+                <p>&roarr; L'emsemble des statistiques sont à la hausse</p>
+                <p>&roarr; Les temps de chargement ont été réduits</p>
+                <br><br>
+                <p>&roarr; Les performances du site sont grandement améliorés et lui permettront d'être mieux reférencé</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
